@@ -18,6 +18,8 @@ const notFoundHandler = require('./utils/middlewares/notFoundHandler')
 
 // Body parser
 app.use(express.json())
+
+// Security
 app.use(helmet())
 
 // Routes
